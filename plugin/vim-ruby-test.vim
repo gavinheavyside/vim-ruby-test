@@ -11,7 +11,7 @@ function! SetRspec1()
 endfunction
 
 function! SetRspec2()
-  let t:st_rspec_command="bundle exec rspec"
+  let t:st_rspec_command="rspec"
 endfunction
 
 function! RunTests(filename)
